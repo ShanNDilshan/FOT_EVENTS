@@ -53,7 +53,7 @@ class _OrganizationPageState extends State<OrganizationPage> {
       ),
       body: <Widget>[
         /// Active page
-        const Center(
+        Center(
           child: FeedPage(),
         ),
 

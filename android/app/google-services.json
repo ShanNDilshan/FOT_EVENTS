@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "649571801446",
+    "project_id": "foteventsx",
+    "storage_bucket": "foteventsx.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:649571801446:android:27346978b694ec6b4490a7",
+        "android_client_info": {
+          "package_name": "com.example.fot_eventsx"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEVLBvZzNIoLstjQVD_MQ8fxC23VBxC1w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
