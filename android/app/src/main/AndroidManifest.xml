@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.shan.fot_eventsx">
+    package="com.example.fot_eventsx">
     <application
         android:label="fot_eventsx"
         android:name="${applicationName}"
