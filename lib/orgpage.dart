@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:fot_eventsx/activepage.dart';
 import 'package:fot_eventsx/feedpage.dart';
 
 //OrganizationPage
@@ -53,8 +54,8 @@ class _OrganizationPageState extends State<OrganizationPage> {
       ),
       body: <Widget>[
         /// Active page
-        Center(
-          child: FeedPage(),
+        const Center(
+          child: ActivePage(),
         ),
 
         /// About us page
@@ -64,7 +65,7 @@ class _OrganizationPageState extends State<OrganizationPage> {
 
         /// Join page
         const Center(
-          child: Text('Join Page'),
+          child: FeedPage(),
         ),
         // Profile page
         const Center(
