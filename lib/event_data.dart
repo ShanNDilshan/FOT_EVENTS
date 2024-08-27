@@ -18,10 +18,38 @@ class Event {
 
 List<Event> events = [
   Event(
-      eventName: "JXLDX 16.0",
+      eventName: "EVENT X",
       eventDiscription: "lorem spirilum le event discriptionet",
       sDate: "20-6-24",
       regLink: 'https://example.com/apply2',
       eventLogo: 'assets/events/sampleevent.jpg',
-      Organizer: "AIESEC"),
+      Organizer: "XZ6"),
+  Event(
+      eventName: "EVENT D",
+      eventDiscription: "lorem spirilum le event discriptionet",
+      sDate: "20-6-24",
+      regLink: 'https://example.com/apply2',
+      eventLogo: 'assets/events/sampleevent.jpg',
+      Organizer: "XZ8"),
+  Event(
+      eventName: "EVENT Z",
+      eventDiscription: "lorem spirilum le event discriptionet",
+      sDate: "20-6-24",
+      regLink: 'https://example.com/apply2',
+      eventLogo: 'assets/events/sampleevent.jpg',
+      Organizer: "CLUB Z"),
+  Event(
+      eventName: "EVE C",
+      eventDiscription: "lorem spirilum le event discriptionet",
+      sDate: "20-6-24",
+      regLink: 'https://example.com/apply2',
+      eventLogo: 'assets/events/sampleevent.jpg',
+      Organizer: "XZ-1D"),
+  Event(
+      eventName: "DG-Z",
+      eventDiscription: "lorem spirilum le event discriptionet",
+      sDate: "20-6-24",
+      regLink: 'https://example.com/apply2',
+      eventLogo: 'assets/events/sampleevent.jpg',
+      Organizer: "ORG-Ze"),
 ];

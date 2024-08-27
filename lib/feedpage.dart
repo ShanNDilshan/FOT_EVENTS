@@ -20,7 +20,7 @@ class _FeedPageState extends State<FeedPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(automaticallyImplyLeading: false),
       body: ListView.builder(
         itemCount: organizations.length,
         itemBuilder: (context, index) {

@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:fot_eventsx/aboutus.dart';
 import 'package:fot_eventsx/activepage.dart';
 import 'package:fot_eventsx/feedpage.dart';
+import 'package:fot_eventsx/profilepage.dart';
 
 //OrganizationPage
 class OrganizationPage extends StatefulWidget {
@@ -16,7 +18,8 @@ class _OrganizationPageState extends State<OrganizationPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Organizations"),
+        automaticallyImplyLeading: false,
+        title: const Text("FOT EVENTS"),
       ),
       bottomNavigationBar: NavigationBar(
         onDestinationSelected: (int index) {
@@ -38,15 +41,14 @@ class _OrganizationPageState extends State<OrganizationPage> {
           ),
           NavigationDestination(
             icon: Badge(
-              label: Text('2'),
+              label: Text('7'),
               child: Icon(Icons.messenger_sharp),
             ),
             label: 'Join',
           ),
           NavigationDestination(
             icon: Badge(
-              label: Text('3'),
-              child: Icon(Icons.messenger_sharp),
+              child: Icon(Icons.account_box),
             ),
             label: 'Profile',
           ),
@@ -60,7 +62,7 @@ class _OrganizationPageState extends State<OrganizationPage> {
 
         /// About us page
         const Center(
-          child: Text('About Us Page'),
+          child: AboutUs(),
         ),
 
         /// Join page
@@ -69,7 +71,7 @@ class _OrganizationPageState extends State<OrganizationPage> {
         ),
         // Profile page
         const Center(
-          child: Text('Profile Page'),
+          child: ProfilePage(),
         ),
       ][currentPageIndex],
     );

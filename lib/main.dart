@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:fot_eventsx/orgpage.dart';
+import 'package:fot_eventsx/homepage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +17,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: OrganizationPage(),
+      home: HomePage(),
     );
   }
 }
